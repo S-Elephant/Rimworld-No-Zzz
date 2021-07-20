@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/FleckDef[defName="SleepZ"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>SE_EmptyPixel</texPath>
+		</value>
+	</Operation>
+
+</Patch>
