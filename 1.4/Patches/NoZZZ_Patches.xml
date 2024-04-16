@@ -8,4 +8,18 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/FleckDef[defName="SleepZ_Small"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>SE_EmptyPixel</texPath>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/FleckDef[defName="SleepZ_Tiny"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>SE_EmptyPixel</texPath>
+		</value>
+	</Operation>
+
 </Patch>
